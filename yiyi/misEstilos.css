@@ -230,3 +230,15 @@ iframe{
 video{
 	margin-top:30px;
 }
+
+
+@media screen and (max-width: 779px)
+{
+	nav, main{width:100%;}
+	p {font-size:1.2em;}
+	iframe{width:300px;
+	height:200px;}
+	video{width:300px;
+	height:200px;}
+	header{height:130px;}
+}
