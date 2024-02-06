@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(00,51,72);
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    text-align: right;
+    margin: 0;
+}
+h1{
+    color: rgb(255, 255, 128);
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+h2{
+    color: rgb(255, 255, 192);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.det{
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-weight: bold;
+}
+nav {
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+}
+nav table {
+    background-color: rgb(0,91,128);
+    border-style: solid;
+    border-color: rgb(160, 192, 271);
+    border-width: 4px;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+nav caption{
+    background-color: rgb(160, 192, 271);
+    color: black;
+    height: 32px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+nav td {
+    height: 48px;
+    border-style: solid;
+    border-color: rgb(160, 192, 271);
+    transition: 0.1s;
+}
+nav td:hover{
+    height: 56px;
+    background-color: black;
+    transition: 0.25s;
+}
+nav td:active{
+    background-color: white;
+}
+main {
+    background-color: rgb(160, 192, 271);
+    color: black;
+    text-align: left;
+    float: left;
+    width: 50%;
+    margin-left: 2.5%;
+    padding: 16px 5%;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    clear: both;
+    height: 36px;
+    padding-top: 16px;
+}
+h1 a{
+    color: rgb(255, 255, 128);
+    text-decoration: none;
+    transition: 0.1s;
+}
+h1 a:active{
+    color: rgb(0,91,128);
+    transition: 0.25s;
+}
+h1 a:hover{
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+}
+nav a:active{
+    color:black;
+    transition: 0.25s;
+}
+footer a:link{
+    color: rgb(255, 255, 128);
+}
+footer a:hover{
+    color: white;
+}
+footer a:visited{
+    color: rgb(160, 192, 271);
+}
+
