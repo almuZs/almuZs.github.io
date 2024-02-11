@@ -31,7 +31,7 @@ nav {
 nav table {
     background-color: rgb(0,91,128);
     border-style: solid;
-    border-color: rgb(160, 192, 271);
+    border-color: rgb(160, 192, 255);
     border-width: 4px;
     border-collapse: collapse;
     text-align: center;
@@ -39,7 +39,7 @@ nav table {
     width: 100%;
 }
 nav caption{
-    background-color: rgb(160, 192, 271);
+    background-color: rgb(160, 192, 255);
     color: black;
     height: 32px;
     font-weight: bold;
@@ -48,7 +48,7 @@ nav caption{
 nav td {
     height: 48px;
     border-style: solid;
-    border-color: rgb(160, 192, 271);
+    border-color: rgb(160, 192, 255);
     transition: 0.1s;
 }
 nav td:hover{
@@ -60,13 +60,52 @@ nav td:active{
     background-color: white;
 }
 main {
-    background-color: rgb(160, 192, 271);
+    background-color: rgb(160, 192, 255);
     color: black;
     text-align: left;
     float: left;
     width: 50%;
+    height: 40.5em;
     margin-left: 2.5%;
     padding: 16px 5%;
+    overflow-y: scroll;
+}
+main table {
+    background-color: rgb(160, 192, 255);
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgb(0,91,128);
+    border-width: 4px;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+main caption{
+    background-color: rgb(0,91,128);
+    color: white;
+    height: 32px;
+    padding-top: 16px;
+}
+main td {
+    height: 48px;
+    border-style: solid;
+    border-color: rgb(0,91,128);
+    transition: 0.1s;
+    width: 30%;
+}
+.nomen{
+    background-color: rgb(0,91,128);
+    color:white;
+    font-size: 2em;
+}
+ul li{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+ol li{
+    font-size: 1.125em;
+    font-weight: bold;
 }
 footer {
     background-color: black;
@@ -96,6 +135,13 @@ nav a:active{
     color:black;
     transition: 0.25s;
 }
+main a{
+    color: rgb(128, 64, 64);
+    font-weight: bold;
+}
+main a:hover{
+    color: rgb(192, 96, 96);
+}
 footer a:link{
     color: rgb(255, 255, 128);
 }
@@ -103,6 +149,6 @@ footer a:hover{
     color: white;
 }
 footer a:visited{
-    color: rgb(160, 192, 271);
+    color: rgb(160, 192, 255);
 }
 
