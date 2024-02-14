@@ -65,7 +65,7 @@ main {
     text-align: left;
     float: left;
     width: 50%;
-    height: 40.5em;
+    height: 100vh;
     margin-left: 2.5%;
     padding: 16px 5%;
     overflow-y: scroll;
