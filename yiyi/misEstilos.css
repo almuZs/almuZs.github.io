@@ -1,7 +1,8 @@
 body{
-	background-image:url(imagenes/cohete.jpg);
+	background-image:url(imagenes/cohete3.jpg);
 	background-repeat:no-repeat;
 	background-position:center;
+	background-size:cover;
 }
 h1{
 	text-align:center;
@@ -14,7 +15,7 @@ h1{
 }
 hr{
 	
-background-color:#709A78;
+background-color:#231B78;
 border-color:black;
 height:5px;
 margin-top:10px;
@@ -58,21 +59,23 @@ h3{
 
 header{
 	height:100px;
-	background-color:#A2E6B0;
+	background-color:#012A65;
 	clear:both;
 	border:solid;
+	opacity:0.9;
 }
 
 
 footer{
 	clear:both;
-	background-color:green;
+	background-color:#231B78;
 	height:auto;
 	text-align:center;
+	opacity:0.9;
 }
 main{
 	height:auto;
-	background-color:#9DE8AD;
+	background-color:#1D175B;
 	float:left;
 	width:80%;
 	opacity:0.9;
@@ -81,7 +84,7 @@ main{
 }
 nav{
 	float:left;
-	background-color:#98CDA3;
+	background-color:#012A65;
 	width:20%;
 	height:auto;
 	color:#D4E590;
@@ -89,7 +92,7 @@ nav{
 nav table{
 	width:100%;
 	text-align:center;
-	border-color:#8AFF5B;
+	border-color:#231B78;
 	border-style:solid;
 	border-collapse: collapse;
 	font-size:1.2em;
@@ -97,21 +100,22 @@ nav table{
 
 nav td{
 	border-spacing:10px;
-	border-color:#8AFF5B;
+	border-color:#231B78;
 	width:100%;
 	transition: 0.1s;
 }
 
 nav td:hover{
     height: 30px;
-    background-color: yellow;
+    background-color: black;
     transition: 0.25s;
 }
 nav td:active{
-    background-color: green;
+    background-color: blue;
 }
 strong{
-	color:#517558;
+	color:#231B78;
+	text-decoration:underline;
 }
 .img2{
 	width:200px;
@@ -160,6 +164,7 @@ main th{
 	background-color:#9DBAB6;
 	clear:both;
 	border:solid;
+	opacity:0.9;
 }
 .miembros{
 	text-align:center;
@@ -184,7 +189,7 @@ margin-top:10px;
 width:100%;
 }
 #main{
-	height:500px;
+	height:700px;
 	background-color:#C2D8D4;
 	float:left;
 	width:80%;
@@ -199,6 +204,7 @@ width:100%;
 	background-color:#F9D3D3;
 	clear:both;
 	border:solid;
+	opacity:0.9;
 }
 .diseño{
 	color:black;
@@ -258,24 +264,7 @@ video{
 }
 
 
-@media screen and (max-width: 779px)
-{
-	nav, main{width:100%;}
-	p {font-size:1.2em;}
-	iframe{width:300px;
-	height:200px;}
-	video{width:300px;
-	height:200px;}
-	header{height:130px;}
-	nav table{font-size:1.2em;}
-	#mdiseño, #nav2, #main, #nav{width:100%;}
-	#diseño{height:130px;}
-	.tabla1{margin-left:50px;
-	margin-top:10px;
-	font-size:1em;}
-	.calendario{width:420px;
-	height:250px}
-	#mdiseño{font-size:1.2em;}
+
 	
 	
 
@@ -316,4 +305,48 @@ header { clear:both; width:100%;}
 nav { float:left; width:30%;}
 main { float:left; width:70%;}
 p {font-size:1.1em;}
+}
+main a{
+	color:red;
+	font-weight:bold;
+}
+.imgtapa{
+	width:200px;
+	height:200px;
+	border-style:solid;
+}
+#nav_boton {
+ display: none;
+ background-color: :#384B33 ;
+ height: 25px;
+ width: 100%;
+ cursor: pointer;
+}
+nav_boton{
+	display:none;
+	cursor:pointer;
+	height:100%;
+	width:100%;
+}
+@media screen and (max-width: 779px)
+{
+	nav, main{width:100%;}
+	p {font-size:1.2em;}
+	iframe{width:300px;
+	height:200px;}
+	video{width:300px;
+	height:200px;}
+	header{height:130px;}
+	nav table{font-size:1.2em;}
+	#mdiseño, #nav2, #main, #nav{width:100%;}
+	#diseño{height:130px;}
+	.tabla1{margin-left:50px;
+	margin-top:10px;
+	font-size:1em;}
+	.calendario{width:420px;
+	height:250px}
+	#mdiseño{font-size:1.2em;}
+	#nav_boton { display: block;}
+	#nav_menu {display: none;}
+	.lista{width:50px; height:30px;}
 }
