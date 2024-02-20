@@ -350,3 +350,9 @@ nav_boton{
 	#nav_menu {display: none;}
 	.lista{width:50px; height:30px;}
 }
+
+.imglata2{
+	height:250px;
+	width:200px;
+	border-style:solid;
+}
