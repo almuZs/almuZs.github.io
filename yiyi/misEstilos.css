@@ -347,7 +347,7 @@ nav_boton{
 	height:250px}
 	#mdiseño{font-size:1.2em;}
 	#nav_boton { display: block;}
-	#nav_menu {display: none;}
+	nav tr {display: none;}
 	.lista{width:50px; height:30px;}
 	.img3{margin-top:15px;}
 }
