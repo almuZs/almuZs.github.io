@@ -44,6 +44,14 @@ nav caption{
     height: 32px;
     font-weight: bold;
     padding-top: 16px;
+    text-align: center;
+    transition: 0.25s;
+}
+nav caption:hover{
+    background-color: rgb(255, 255, 128);
+}
+nav caption:active{
+    background-color: rgb(255, 128, 128);
 }
 nav td {
     height: 48px;
@@ -126,6 +134,9 @@ h1 a:active{
 h1 a:hover{
     color: white;
 }
+h1 a:active{
+    color: rgb(255, 128, 128);
+}
 nav a{
     color: white;
     text-decoration: none;
@@ -148,7 +159,30 @@ footer a:link{
 footer a:hover{
     color: white;
 }
+footer a:active{
+    color: rgb(255, 128, 128);
+}
 footer a:visited{
     color: rgb(160, 192, 255);
 }
 
+@media screen and (max-width: 800px) {
+    body{
+        font-size: 1.25em;
+    }
+    .det{
+        font-size: 1.75em;
+    }
+    nav {
+        float: none;
+        clear: both;
+        width: 90%;
+        margin: 5% 5%;
+    }
+    main {
+        float: none;
+        clear: both;
+        width: 80%;
+        margin: 5% 5%;
+    }
+}
